@@ -7,7 +7,7 @@ mealAmt=float(input('please input the amount of the meal '))
 
 # ======================== &nbsp;calculations
 taxAmt=mealAmt * TAX_RATE
-tipAmt = 0
+tipAmt = 2
 # ============================= print results
 print(f'meal cost is {mealAmt: .2f}')
 print(f'tax amount is &nbsp;{taxAmt: .2f}')
